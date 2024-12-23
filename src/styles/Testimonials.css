@@ -1,0 +1,33 @@
+.testimonials {
+  background-color: #ffb347;
+  padding: 50px 20px;
+  text-align: center;
+  color: #06104e;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.featured h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.featured .logos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.featured .logos img {
+  height: 40px;
+}
