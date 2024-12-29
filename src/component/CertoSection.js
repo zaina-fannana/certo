@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/CertoSection.css";
-
+import MobileSecurity from "../assets/Mobile Security.png";
 const CertoSection = () => {
   return (
     <div className="certo-section">
       <div className="certo-content">
-        <h1>
+        <h1 className="headline">
           At Certo, mobile security is not an afterthought, it’s what we do.
         </h1>
-        <p>
+        <p className="description">
           With years of experience in mobile security and spyware detection, our
           products have helped countless people safeguard their devices and find
           peace of mind.
@@ -24,9 +24,9 @@ const CertoSection = () => {
       </div>
       <div className="certo-image">
         <img
-          src="/path-to-image.jpg"
+          src={MobileSecurity}
           alt="Mobile Security"
-          className="circle-image"
+          className="mobile-image"
         />
       </div>
     </div>

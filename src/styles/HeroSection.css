@@ -1,0 +1,54 @@
+.hero1 {
+  text-align: center;
+  background: linear-gradient(135deg, #02033b, #6a5cff);
+  color: white;
+  padding: 80px 20px;
+  border-radius: 8px;
+}
+
+.hero1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero1 p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-iphone,
+.btn-android {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+  height: 55px;
+}
+
+.btn-iphone {
+  background-color: rgb(255, 194, 71);
+  color: #111;
+  border: none;
+}
+
+.btn-android {
+  background-color: white;
+  color: #02033b;
+  border: 1px solid #02033b;
+}
+
+.btn-iphone:hover {
+  background-color: #ffa31a;
+}
+
+.btn-android:hover {
+  background-color: #02033b;
+  color: white;
+}

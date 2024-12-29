@@ -10,50 +10,64 @@
   max-width: 50%;
 }
 
-.certo-content h1 {
+.certo-content .headline {
   font-size: 2.5rem;
   color: #0f0f4d;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
-.certo-content p {
+.certo-content .description {
   font-size: 1.2rem;
   color: #555;
   margin-bottom: 30px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .certo-buttons {
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 .certo-btn {
-  padding: 10px 20px;
+  padding: 15px 25px;
   font-size: 1rem;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 35px;
   font-weight: bold;
 }
 
 .iphone-btn {
-  background-color: #f4af11;
+  background-color: #fdbf4a;
   color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.iphone-btn:hover {
+  background-color: #e9a63c;
 }
 
 .android-btn {
   background-color: transparent;
   color: #0f0f4d;
   border: 2px solid #0f0f4d;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.android-btn:hover {
+  background-color: #0f0f4d;
+  color: #ffffff;
 }
 
 .certo-image {
   max-width: 40%;
+  position: relative;
+  padding: 5px;
 }
 
-.circle-image {
+.mobile-image {
   width: 100%;
-  border-radius: 50%;
-  border: 5px solid #f4af11;
+  border-radius: 5px;
 }

@@ -1,22 +1,28 @@
 import React from "react";
 import ReviewCard from "./ReviewCard";
 import "../styles/Testimonials.css";
+import CNBC from "../assets/CNBC.png";
+import NewYork from "../assets/NewYork.png";
+import figure from "../assets/figure.png";
+import Reader from "../assets/Reader.png";
+import ZDNet from "../assets/ZDNet.png";
+import Wired from "../assets/Wired.png";
 
 const Testimonials = () => {
   const reviews = [
     {
-      text: "35 years in Cybersecurity. This App is Safe, Effective, and Extremely Informative. Beginner through Expert Users can benefit.",
-      author: "BeaunTeK, App Store",
+      text: "Does exactly what it says. Clear to read and understand. This is now the second iPhone we’ve used it on and would certainly recommend this app.",
+      author: "colinandmandy94",
       rating: 5,
     },
     {
-      text: "Very happy with Certo's app. I found it easy enough to use. It doesn't slow my phone down or show ads like other apps. Would definitely recommend it.",
-      author: "Evelyn K, Sitejabber",
+      text: "Love the ease and efficiency. Awesome app. Very informative and insightful if wanting to know more about your device. The added breach check is a great bonus. Sweet tool. Love it highly recommend.",
+      author: "Jennifer Black",
       rating: 5,
     },
     {
-      text: "Best malware detection and removal you can find. I've been using this for about a year and would recommend it to anyone.",
-      author: "Clayton Horn, Play Store",
+      text: "This app is good if you need to identify certain vulnerabilities on your iPhone. If you have any issues, their customer service was quite helpful and responsive.",
+      author: "Phillip Colligan",
       rating: 5,
     },
   ];
@@ -37,12 +43,12 @@ const Testimonials = () => {
       <div className="featured">
         <h3>Featured in:</h3>
         <div className="logos">
-          <img src="/logos/cnbc.png" alt="CNBC" />
-          <img src="/logos/newyorkpost.png" alt="New York Post" />
-          <img src="/logos/ft.png" alt="Financial Times" />
-          <img src="/logos/readersdigest.png" alt="Reader's Digest" />
-          <img src="/logos/zdnet.png" alt="ZDNet" />
-          <img src="/logos/wired.png" alt="Wired" />
+          <img src={CNBC} alt="CNBC" className="CNBC-image" />
+          <img src={NewYork} alt="NewYork" className="NewYork-image" />
+          <img src={figure} alt="figure" className="figure-image" />
+          <img src={Reader} alt="Reader" className="Reader-image" />
+          <img src={ZDNet} alt="ZDNet" className="ZDNet-image" />
+          <img src={Wired} alt="Wired" className="Wired-image" />
         </div>
       </div>
     </section>

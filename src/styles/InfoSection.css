@@ -1,0 +1,62 @@
+.about-help-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #f6faff;
+}
+
+.about-card,
+.help-card {
+  width: 45%;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.about-card {
+  background: linear-gradient(135deg, #ffd966, #ffa31a);
+}
+
+.about-card h2,
+.help-card h2 {
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.about-card p,
+.help-card p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-btn,
+.help-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 35px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.about-btn {
+  background-color: #02033b;
+  color: white;
+}
+
+.help-btn {
+  background-color: white;
+  color: #02033b;
+  border: 1px solid #02033b;
+}
+
+.about-btn:hover {
+  background-color: #3a31cc;
+}
+
+.help-btn:hover {
+  background-color: #02033b;
+  color: white;
+}
