@@ -11,6 +11,7 @@ import InfoSection from "./component/InfoSection";
 import HeroSection from "./component/HeroSection";
 import LatestInsights from "./component/LatestInsights";
 import Footer from "./component/Footer";
+import "./App.css";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <HeroSection />
       <LatestInsights />
       <Footer />
-      []
+
       <Routes>
         <Route path="/signin" element={<SignIn />} />
       </Routes>
